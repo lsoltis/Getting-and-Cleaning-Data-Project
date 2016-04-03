@@ -1,0 +1,19 @@
+---
+Getting and Cleaing Data Course Project
+title: "README"
+author: "Luke Soltis"
+date: "April 3, 2016"
+output: html_document
+---
+
+This is README file for the Getting and Cleaning Data Course Project.  The following R script, run_analysis.R, completes the following:
+
+1. Downloads the dataset if it is not already in the working directory
+2. Loads the related file information into the variables
+3. Read the variable names
+4. Merges the two datasets
+5. The data was subsetted for mean and standard deviation
+6. The `Activity` and `Subject` columns were converted into factors
+7. A tidy dataset is created that consists of the average (mean) value of each
+   variable for each subject and activity pair
+8. The script outputs tidydata.txt
